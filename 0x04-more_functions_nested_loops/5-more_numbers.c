@@ -9,20 +9,14 @@ void more_numbers(void)
 {
 	int i, j;
 
-	i = 0;
-	while (i < 10)
+	for (i = 0; i < 10; i++) 
 	{
-		j = 0;
-		while (j < 15)
+		for (j = 0; j <= 14; j++)
 		{
-			if (j > 9)
-			{
-				_putchar(j / 10 + '0');
-				_putchar(j % 10 + '0');
-			}
-			j++;
+			if (j >= 10)
+				_putchar('1');
+			_putchar(j % 10 + '0');
 		}
-		i++;
 		_putchar('\n');
 	}
 }
