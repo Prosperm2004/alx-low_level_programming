@@ -1,10 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
-void _puts(char *s)
+/**
+ * _puts - Check if a number is greater than 0
+ * @str: The number to be checked
+ */
+void _puts(char *str)
 {
-    puts(s);
+	int i;
+
+	for (i = 0; *str != '\0'; i++)
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }
