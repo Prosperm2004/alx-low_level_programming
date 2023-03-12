@@ -9,21 +9,17 @@
  * Return: 0 if function runs correctly
  * On error, return 1
  */
-
 int main(int argc, char *argv[])
 {
-	int i, mul = 1;
+	(void) argc;
 
-	if (argc > 1)
+	if (argv[1] && argv[2])
 	{
-		for (i = 1; i < argc; i++)
-		{
-			mul *= atoi(argv[i]);
-		}
-		printf("%d\n", mul);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
 	}
 	else
 		printf("Error\n");
+
 	return (1);
 }
