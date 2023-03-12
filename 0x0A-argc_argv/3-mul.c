@@ -4,8 +4,8 @@
 
 /**
  * main - program that multiplies two numbers
- * @argc - argument count
- * @argv - argument vector
+ * @argc: argument count
+ * @argv: argument vector
  * Return: 0 if function runs correctly
  * On error, return 1
  */
