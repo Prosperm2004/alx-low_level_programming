@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * op_add - addition operator 
+ * op_add - addition operator
  * @a: first int
  * @b: second int
  * Return:  returns the sum of a and b
