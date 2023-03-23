@@ -6,7 +6,7 @@
  * @array: pointer to array
  * @size: number of elements in array
  * @cmp: pointer to function
- * Return: the index of the first element for which the 
+ * Return: the index of the first element for which the
  * cmp function does not return 0
  */
 
