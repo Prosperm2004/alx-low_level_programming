@@ -16,7 +16,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		return (-1);
 	}
-	
+
 	keep = n >> index;
 	return (keep & 1);
 }

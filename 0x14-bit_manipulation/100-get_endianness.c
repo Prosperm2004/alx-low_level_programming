@@ -15,6 +15,6 @@ int get_endianness(void)
 	address = (char *)&num_b;
 	if (*address)
 		return (1);
-	
+
 	return (0);
 }
